@@ -7,7 +7,7 @@
     <!-- Replace this with Umbra's directory is you have a local dev version installed. Mind the trailing backlash. -->
     <!-- If you have Umbra installed through Dalamud, you can leave this as-is. -->
     <!-- Credits to Lorosia for the dynamic Umbra folder finding. -->
-    <UmbraLibPath>$([System.IO.Directory]::GetDirectories($(appdata)\XIVLauncher\installedPlugins\Umbra\)[0])\</UmbraLibPath>
+    <UmbraLibPath>$([System.IO.Directory]::GetDirectories($(appdata)\XIVLauncherCN\installedPlugins\Umbra\)[0])\</UmbraLibPath>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -27,8 +27,8 @@
     <Version>1.0.4.0</Version>
     <Description>Add a Umbra widget for the plugin Visibility</Description>
     <Copyright>(C)2025</Copyright>
-    <PackageProjectUrl></PackageProjectUrl>
     <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/una-xiv/umbra</PackageProjectUrl>
     <IsPackable>false</IsPackable>
   </PropertyGroup>
 
